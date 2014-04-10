@@ -1,7 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 require 'minitest/autorun'
-require 'rack/test'
-require_relative 'number_cruncher.rb'
+require_relative 'mizutamari-api.rb'
  
 include Rack::Test::Methods
  
