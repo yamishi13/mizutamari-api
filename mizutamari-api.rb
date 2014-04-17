@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'json'
 require 'mechanize'
+require 'torquebox'
 set :server, 'webrick'
 
 get '/:num' do |num|
