@@ -1,6 +1,0 @@
-app_path: "/home/yamishi/mizutamari-api/
-jsvc_path: "/usr/bin/jsvc"
-trinidad_options: "-e production"
-trinidad_name: Trinidad
-trinidad_service_id: Trinidad # on Windows (defaults to :trinidad_name)
-trinidad_service_desc: Trinidad Service Description # on Windows (optional)

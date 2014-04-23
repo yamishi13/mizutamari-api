@@ -1,6 +1,0 @@
-2014-04-18 00:27:31 -0500 INFO: jruby 1.7.11 (1.9.3p392) 2014-02-24 86339bb on Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13 [linux-amd64]
-2014-04-18 00:27:32 -0500 INFO: using 1:5 runtime pool with acquire timeout of 5.0 seconds
-2014-04-18 00:27:50 -0500 INFO: added application to pool, size now = 1
-2014-04-18 22:45:22 -0500 INFO: jruby 1.7.11 (1.9.3p392) 2014-02-24 86339bb on Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13 [linux-amd64]
-2014-04-18 22:45:22 -0500 INFO: using 1:5 runtime pool with acquire timeout of 5.0 seconds
-2014-04-18 22:45:40 -0500 INFO: added application to pool, size now = 1
