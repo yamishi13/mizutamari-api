@@ -1,0 +1,4 @@
+extensions:
+    daemon:
+		# optional by default the pid is written into a temporal directory :
+    	pid_file: ./trinidad.pid
