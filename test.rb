@@ -6,12 +6,12 @@ require 'rack/test'
 include Rack::Test::Methods
 
 def app
-  Sinatra::Application
+  Mizu
 end
 
 describe "page get" do
 	it "should return the package data as json" do
-		get 'EG297596005JP'
-		assert_equal last_response["Content-Type"], "application/json"
+		get '/EG297596005JP'
+		assert_equal "application/json", last_response["Content-Type"]
 	end
 end
