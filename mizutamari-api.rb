@@ -19,11 +19,10 @@ class Mizu < Sinatra::Base
 		ret[:data] = []
 		for r in 1..limit do
 	 		columns = rows[r].search("./td")
-	 		col = {fecha: columns[0].text, origen: columns[2].text, 
-	 			accion: columns[3].text, destino: columns[4].text}
+	 		col = {fecha: columns[0].text.strip, origen: columns[2].text.strip, 
+	 			accion: columns[3].text.strip, destino: columns[4].text.strip}
 	 		ret[:data].push col
 	 	end
-	# 	{:data => ret[:data]}
 		ret.to_json
 	end
 end
