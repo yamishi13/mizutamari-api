@@ -2,9 +2,12 @@ require 'sinatra'
 require 'json'
 require 'mechanize'
 require 'sinatra'
-configure { set :server, :trinidad }
+require 'sinatra/cross_origin'
 
 class Mizu < Sinatra::Base
+	register Sinatra::CrossOrigin
+ 
+  	enable :cross_origin
 
 	get '/:num' do |num|
 		content_type :json
