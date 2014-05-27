@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
+gem "mechanize"
 gem "sinatra"
 gem "json"
-gem "mechanize"
 gem "puma"
 gem "sinatra-cross_origin"
 
